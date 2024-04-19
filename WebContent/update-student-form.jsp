@@ -17,7 +17,7 @@
 	
 	<div id="container">
 		<h3>Update student</h3>
-		<form action="StudentControllerServlet" method="GET">
+		<form action="StudentControllerServlet" method="POST">
 			<input type="hidden" name="command" value="UPDATE">
 			
 			<input type="hidden" name="StudentId" value="${THE_STUDENT.id}">

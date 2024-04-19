@@ -36,7 +36,7 @@ public class StudentControllerServlet extends HttpServlet {
 	}
 	
 	@Override
-	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		//read the "command" parameter
 		String commandString=req.getParameter("command");
 		try {
